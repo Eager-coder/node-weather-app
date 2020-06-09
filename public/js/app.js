@@ -9,6 +9,7 @@ button.addEventListener('click', ()=>{
             div.innerText = data.error
         } else {
             div.innerText = data
+            console.log(data)
         }
     })
 })
